@@ -7,7 +7,7 @@ let cognomeUtente = prompt('Adesso scrivi il tuo cognome');
 console.log(cognomeUtente);
 
 // chiedi il suo colore preferito
-let colorePref = prompt('Abbiamo quasi finito! Qual è il tuo colore preferito?')
+let colorePref = prompt('Abbiamo quasi finito! Qual è il tuo colore preferito?');
 console.log (colorePref);
 
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
