@@ -10,8 +10,16 @@ console.log(cognomeUtente);
 let colorePref = prompt('Abbiamo quasi finito! Qual è il tuo colore preferito?');
 console.log (colorePref);
 
-// Infine scrivi sulla pagina nomecognomecolorepreferito21
-const numero = 21;
+// chiedi il suo numero preferito
+let numeroPref = parseInt(prompt('Ultima domanda. Qual è il tuo numero preferito?'));
+console.log (numeroPref);
+
+const numero = 5 + numeroPref;
+
+ 
+
+// Infine scrivi sulla pagina nomecognomecolorepreferito(numpref+5)
+
 
 let password = `la tua password è ${nomeUtente}${cognomeUtente}${colorePref}${numero}`;
 document.getElementById('mio_id').innerHTML = password;
