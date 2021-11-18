@@ -14,7 +14,7 @@ console.log (colorePref);
 let numeroPref = parseInt(prompt('Ultima domanda. Qual è il tuo numero preferito?'));
 console.log (numeroPref);
 
-const numero = 5 + numeroPref;
+let numero = 5 + numeroPref;
 
  
 
